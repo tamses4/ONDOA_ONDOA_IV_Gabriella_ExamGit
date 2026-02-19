@@ -9,11 +9,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Début du déploiement
-        run: echo "Début du déploiement"
+      - name: 'Début du déploiement'
+        run: 'echo "Début du déploiement"'
 
-      - name: Récupérer et afficher le secret
-        run: echo "Valeur du secret DEPLOY_TOKEN : ${{ secrets.DEPLOY_TOKEN }}"
+      - name: 'Récupérer et afficher le secret'
+        run: 'echo "Valeur du secret DEPLOY_TOKEN : ${{ secrets.DEPLOY_TOKEN }}"'
 
-      - name: Déploiement terminé
+      - name: 'Déploiement terminé'
         run: echo "Déploiement terminé par ONDOA ONDOA IV Gabriella"
